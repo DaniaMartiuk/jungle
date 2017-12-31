@@ -38,6 +38,7 @@ body {
 }
 .content_wrapper {
   padding: 7px;
+  text-align: center;
 }
 .content_block {
   background-color: lightgrey;
@@ -45,8 +46,8 @@ body {
   border-radius: 15px;
   display: inline-block;
   padding: 10px;
-  width: 419px;
-  float:left;
+  width: 416px;
+  vertical-align: top;
   margin:2px;
 }
 .content_big_block {
@@ -61,7 +62,7 @@ p {
   border-radius: 10px;
   float: left;
   margin: 15px 5px 1px 0;
-  width: 40%;
+  width: 30%;
 }
 .content_big_img{
   width: 15%;
@@ -90,7 +91,6 @@ a:link, a:active, a:visited, a:hover {
 
 /* Footer */
 .footer_wrapper{
-  margin-top: 1310px;
   border-top: 4px solid dimgrey;
   padding: 5px;
   text-align: center;
@@ -98,7 +98,4 @@ a:link, a:active, a:visited, a:hover {
   font-weight: bold;
   font-size: 50px;
   color: beige;
-}
-.footer_wrapper_article {
-  margin-top: 480px;
 }
